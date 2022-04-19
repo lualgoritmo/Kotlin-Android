@@ -8,7 +8,7 @@ fun main() {
     altura = readln().toDouble();
     print(imc(peso,altura));
 }
-fun imc(peso:Double, altura:Double):Double {
+fun imc(peso:Double, altura:Double) {
     val imc = peso /(altura * altura);
     if(imc < 18.5){
         println("Abaixo do peso: %.2f".format(imc));
@@ -25,5 +25,4 @@ fun imc(peso:Double, altura:Double):Double {
     else {
         println("Obesidade grave: %.2f".format(imc));
     }
-    return imc;
 }
