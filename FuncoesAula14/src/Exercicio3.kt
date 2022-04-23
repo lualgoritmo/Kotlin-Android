@@ -17,7 +17,7 @@ fun imc(peso:Double, altura:Double) {
         println("Peso normal: %.2f".format(imc));
     }
     else if (imc in 25.0..29.90) {
-        println("SobrePeso: %.2f".format(imc));
+        println("Sobre-peso: %.2f".format(imc));
     }
     else if (imc in 30.0..39.90) {
         println("Obesidade: %.2f".format(imc));
